@@ -1,0 +1,9 @@
+/* CSS Transition */
+.fade-enter{ opacity: 0; }
+.fade-enter.fade-enter-active{ opacity: 1; transition: 0.5s opacity ease-in-out; }
+.fade-exit{ transform: translateX(0%); }
+.fade-exit.fade-exit-active{ transform: translateX(-200%); transition: 0.5s transform ease-in-out; }
+
+/* Bouton + */
+.buttonAdd{ position: fixed; right: 100px; top: 50%; transform: translateY(-50%); }
+.btnCircle{ width: 50px; height: 50px; font-size: 28px; padding: 0 0 5px 0; border-radius: 50%; }
